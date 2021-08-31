@@ -1,0 +1,29 @@
+{
+    "connectProject":{
+        "listBox": ".mdc-select__selected-text",
+        "listOfProject": "mdc-menu mdc-list",
+        "listOfProjectItems": "mdc-menu mdc-list .mdc-list-item[ng-reflect-disabled='false']",
+        "translationSuggestions": "#translation-suggestions-checkbox",
+        "sourceProjectInputBox": ".mat-form-field input",
+        "projectProgressBar": "mat-progress-bar .mat-progress-bar-primary",
+        "translateBookPane": ".app-content.mdc-top-app-bar-adjust",
+        "trainingProgress": ".training-progress .training-title",
+        "translateMenu": "#menu-list .translate-nav-item",
+        "translateMenuItems": ".mdc-list-item",
+        "retrainButton": ".mdc-card.engine-card mdc-card-action-buttons",
+        "translateOverviewActive": ".mdc-list-item.mdc-list-item--activated"
+    },
+
+    "deleteProjectName": {
+        "navigationDrawer": "mdc-drawer .mdc-select__selected-text",
+        "listofprojects": "mdc-drawer mdc-select mdc-menu mdc-list mdc-list-item",
+        "navigationdrawerItems": "mdc-drawer-content mdc-list-item mdc-icon",
+        "shareCheckbox": ".tool-setting.indent.ng-star-inserted #checkbox-share",
+        "deleteThisProjectButton": "button#delete-btn",
+        "deleteThisProjectDailog": "mdc-dialog-surface",
+        "projectNameInputBox": "mdc-dialog-content mdc-text-field#project-entry",
+        "dialogDeleteProjectButton": "#project-delete-btn",
+        "selectedProjectDrawer": ".mdc-select__selected-text"
+    }
+
+}

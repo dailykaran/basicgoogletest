@@ -1,0 +1,13 @@
+
+{
+
+    "sourceLanguageTag":null,
+    "targetLanguageTag":null,
+    "isShared":false,
+    "projects":[{"id":"60ec566aefe3af26a07fa2b0","href":"/machine-api/translation/projects/id:60ec566aefe3af26a07fa2b0"}],
+    "confidence":0.0,
+    "trainedSegmentCount": 1025,
+    "id":"60ec566aefe3af26a07fa2b0",
+    "href":"/machine-api/translation/engines/id:60ec566aefe3af26a07fa2b0"
+
+}

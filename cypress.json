@@ -1,0 +1,25 @@
+{
+    "baseUrl" : "https://www.google.co.in", 
+    "chromeWebSecurity": false,
+    "pageLoadTimeout": 90000,
+    "env": {
+        "loginPage": "/login",
+        "projectPage": "/projects",
+        "paratextDevURL": "registry-dev.paratext.org",
+        "newProjectURL": "http://localhost:5000/projects/60ec566aefe3af26a07fa2b0?sharing=true&shareKey=d5ZDYBC6PhGwuUMu"
+    },
+    
+    "reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+        "reporterEnabled": "mochawesome",
+        "mochawesomeReporterOptions": {
+            "reportDir": "cypress/reports/mocha",
+            "quite": true,
+            "overwrite": false,
+            "html": false,
+            "json": true,
+            "code": false
+        }
+    }
+}
+

@@ -1,0 +1,30 @@
+{
+  "name": "testsfcypress",
+  "version": "1.0.0",
+  "description": "testing",
+  "main": "index.js",
+  "scripts": {
+    "clean:reports": "if exist cypress\\reports rmdir /s/q cypress\\reports && mkdir cypress\\reports && mkdir cypress\\reports\\mochareports",
+    "pretest": "npm run clean:reports",
+
+    "googleSearch": "cypress run --headless --browser chrome --spec \"cypress/integration/SFgoogle.spec.js\" ",
+    "scripts": "cypress run --headless --browser chrome",
+
+    "combine-reports": "mochawesome-merge ./cypress/reports/mocha/*.json > ./cypress/reports/mochareports/report.json",
+    "generate-report": "marge cypress/reports/mochareports/report.json -f report --charts true --ts -o cypress/reports/mochareports",
+    "posttest": "npm run combine-reports && npm run generate-report",
+    
+    "test3": "npm run pretest & npm run googleSearch & npm run posttest"
+    
+  },
+  "author": "dinakaran",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.2.0",
+    "cypress-multi-reporters": "^1.4.0",
+    "mocha": "^8.4.0",
+    "mochawesome": "^6.2.2",
+    "mochawesome-merge": "^4.2.0",
+    "mochawesome-report-generator": "^5.2.0"
+  }
+}

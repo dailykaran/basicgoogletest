@@ -1,0 +1,25 @@
+{
+
+    "checkerLogin": {
+        "userName": "div span input[name='email']",
+        "passWord": "div span input[name='password']",
+        "submit": "div button[type='submit']"
+    },
+
+    "paratextLogin": {
+        "loginWithParatext": ".auth0-lock-social-button[data-provider='oauth2']",
+        "paratextSpinner": ".container i.fa.fa-spinner",
+        "userName": "div#email-group input[name='email']",
+        "submit": "div button[type='submit'] i:visible",
+        "passWord": "div#password-group input[name='password']",
+        "accept": ".btn.btn-success"
+    },
+
+    "logoutUser": {
+        "avatarIcon": ".avatar-container",
+        "avatarMenu": "mdc-menu.mdc-menu-surface mdc-list-group",
+        "avatarlogoutItem": "mdc-list mdc-list-item[name='logout']"
+        
+    }
+
+}
