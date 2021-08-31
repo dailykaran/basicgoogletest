@@ -13,7 +13,7 @@ pipeline {
 		}
 		stage('Run Tests'){
 				steps{
-					bat 'npm test3'
+					bat 'npm run test3'
 				}
 		}
 		stage('Publish HTML Report'){
